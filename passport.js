@@ -3,8 +3,8 @@ window.passport = new window.immutable.passport.Passport({
     environment: window.immutable.config.Environment.SANDBOX,
   }),
   clientId: 'FZfEcdNrfTAwzAM9riHzgJUSN3ygiQZL',
-  redirectUri: 'https://dog-crisp-instantly.ngrok-free.app',
-  logoutRedirectUri: 'https://dog-crisp-instantly.ngrok-free.app/logout.html',
+  redirectUri: 'https://thestackup-invaders.netlify.app',
+  logoutRedirectUri: 'https://thestackup-invaders.netlify.app/logout.html',
   audience: 'platform_api',
   scope: 'openid offline_access email transact'
 });
